@@ -1,14 +1,14 @@
-[🇨🇳](doc/README_CN.md)[中文](doc/README_CN.md)
+[🇺🇸](../README.md)[English](../README.md)
 
 # dockerfileparser
-parsing dockerfile
+dockerfileparser can be used to parse dockerfile
 
-# Install
+# 如何使用
 `go get github.com/eust-w/dockerfileparser`
 
 
-# Usage
-## parsing by file
+# 例子
+## 通过文件解析
 ```
 import (
 	"fmt"
@@ -24,7 +24,7 @@ func main() {
 	fmt.Println(len(d.Run), d.Run)
 }
 ```
-## parsing by io.Reader
+## 通过io.Reader解析
 ```
 import (
 	"fmt"
