@@ -11,5 +11,5 @@ func TestParseFile(t *testing.T) {
 		panic(err)
 	}
 	fmt.Println(d)
-	fmt.Println(d.All, len(d.All), len(d.All[0]))
+	fmt.Println(d.all, len(d.all), len(d.all[0]))
 }
